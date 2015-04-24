@@ -17,7 +17,36 @@
       }
       .recept.row div { min-height: 10px; }
       .recept.row img { margin: 0 2em; }
-      .recept .panel-body { width: 60%; margin: 0 20%; }
+      .recept .panel-body { 
+          width: 60%; margin: 0 20%;
+      }
+      .panel-body {
+          position: relative;
+              overflow: hidden;
+      }
+
+      .banner {
+            -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=-0.70710678, M21=0.70710678, M22=0.70710678,sizingMethod='auto expand')";
+            filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=-0.70710678, M21=0.70710678, M22=0.70710678,sizingMethod='auto expand');
+            -webkit-transform: rotate(45deg) ;
+            -moz-transform: rotate(45deg) ;
+            -o-transform: rotate(45deg) ;
+            transform: rotate(45deg) ;
+            padding: 5px 0;
+            position: absolute;
+            text-align: center;
+            right: -80px;
+            top: 80px;
+            width: 250px;
+            min-height: 0;
+            line-height: 40px;
+            width: 400px;
+            font-size: large;
+            font-weight: bold;
+            color: white;
+            background: rgb(166, 42, 51);
+
+        }
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -39,6 +68,7 @@
         <div class="col-md-3">
           <div class="panel panel-default">
             <div class="panel-body">
+              <span class="banner">twee mensen kopen dit kado al</span>
               <img src="img/port.jpg" style="float: right">
               <h2>een fles Tawny port</h2>
             </div>
